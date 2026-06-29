@@ -1,46 +1,209 @@
-📰 CNews – API Based News Application
+# 📰 CNews - Global News Web Application
 
-A web application that fetches and displays real-time news articles using a third-party REST News API.
-This project demonstrates API integration, response validation, error handling, and frontend rendering of dynamic data.
+A modern and responsive news application built using **HTML, CSS, and JavaScript** that fetches real-time news articles using the **NewsAPI**. Users can search news by country or topic and read the latest headlines from around the world with an attractive and user-friendly interface.
 
-🚀 Features
+---
 
-Fetches real-time news articles from an external REST API
+## 🚀 Live Demo
 
-Displays news based on categories (e.g., Technology, Business, Sports)
+🔗 https://your-vercel-link.vercel.app
 
-Dynamic UI rendering using API response data
+---
 
-Error handling for failed API requests
+## 📸 Preview
 
-Handles invalid API keys and empty responses
+<img src="preview.png" alt="CNews Preview" width="100%">
 
-Responsive layout for better user experience
+---
 
-🛠️ Tech Stack
+## ✨ Features
 
-Frontend: HTML, CSS, JavaScript
+- 🌍 Search news by country or topic
+- 📰 Real-time news powered by NewsAPI
+- 🖼️ Beautiful responsive news cards
+- 🏳️ Dynamic country flag background
+- 🔍 Smart search with Enter key support
+- 📅 Published date on every article
+- 📰 News source badge
+- 🖼️ Fallback image if article image is unavailable
+- ⚡ Loading spinner while fetching news
+- 📱 Fully responsive design
+- 🎨 Modern Hero Section
+- 🚀 Smooth scrolling
+- 🔥 Trending category buttons
+- 💙 Attractive gradient UI
+- 📖 Direct "Read Full Article" button
 
-API Integration: REST News API
+---
 
-Testing Tool: Postman
+## 🛠️ Tech Stack
 
-Version Control: Git & GitHub
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- NewsAPI
+- FlagCDN
 
-🧪 Testing & Validation
+---
 
-This project includes API testing and validation to ensure reliability:
+## 📂 Project Structure
 
-Verified HTTP status codes (200, 404, 500, etc.)
+```
+CNews-api-project
+│
+├── index.html
+├── style.css
+├── script.js
+├── Login.html
+├── README.md
+└── preview.png
+```
 
-Validated JSON response structure using Postman
+---
 
-Tested edge cases such as:
+## ⚙️ Installation
 
-Invalid API key
+Clone the repository
 
-Empty search results
+```bash
+git clone https://github.com/Rishabhkumar-0914/CNews-api-project.git
+```
 
-Network failure scenarios
+Go to project folder
 
-Checked response consistency across different parameters (country, category)
+```bash
+cd CNews-api-project
+```
+
+Open the project
+
+```bash
+Open index.html
+```
+
+or run
+
+```bash
+python -m http.server 8000
+```
+
+Then visit
+
+```
+http://localhost:8000
+```
+
+---
+
+## 🔑 API Configuration
+
+Replace the API key inside
+
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+Generate your own API key from
+
+https://newsapi.org
+
+---
+
+## 🌍 Supported Countries
+
+- 🇮🇳 India
+- 🇺🇸 USA
+- 🇬🇧 United Kingdom
+- 🇫🇷 France
+- 🇩🇪 Germany
+- 🇯🇵 Japan
+- 🇨🇳 China
+- 🇨🇦 Canada
+- 🇦🇺 Australia
+- 🇧🇷 Brazil
+- 🇷🇺 Russia
+- 🇪🇸 Spain
+- 🇰🇷 South Korea
+- 🇵🇰 Pakistan
+- 🇳🇵 Nepal
+- 🇱🇰 Sri Lanka
+- 🇧🇩 Bangladesh
+
+---
+
+## 🎯 Future Improvements
+
+- 🌙 Dark Mode
+- ❤️ Bookmark News
+- 🔥 Trending Headlines
+- 📂 News Categories
+- 🌎 Multi-language Support
+- 🎤 Voice Search
+- 📊 Infinite Scrolling
+- 👤 User Authentication
+- ⭐ Favorite Articles
+- 📲 Progressive Web App (PWA)
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+<img src="screenshots/home.png" width="100%">
+
+### Search Results
+
+<img src="screenshots/search.png" width="100%">
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## ⭐ Support
+
+If you like this project,
+
+⭐ Star this repository.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Rishabh Kumar**
+
+Aspiring Software Engineer
+
+GitHub:
+https://github.com/Rishabhkumar-0914
